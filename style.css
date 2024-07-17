@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.flexbox-container {
+  display: flex;
+  padding: 5% 10% 5% 10%;
+  background-color: #ffcd9e;
+}
+
+.flexbox-item2 {
+  display: flex;
+  flex: content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.man_hold {
+  max-width: 100%;
+  min-width: 50%;
+}
+
+.list_part {
+  display: flex;
+  background-color: #282828;
+  color: #ffffff;
+  justify-content: space-between;
+  padding: 5% 5% 5% 5%;
+  flex-wrap: wrap;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+
+.list_name {
+  padding: 3%;
+}
