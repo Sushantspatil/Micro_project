@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background-color: #ffcd9e;
+}
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  flex-grow: 1;
+}
+
+.flexbox-item1 {
+  max-width: 500px;
+}
+
+.flexbox-item1 h1 {
+  margin-bottom: 20px;
+  font-family: "Inter";
+}
+
+.flexbox-item1 #mainpara {
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2em;
+  color: #484848;
+}
+
+.smallpara {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #282828;
+  font-weight: bold;
+  font-family: "Inter";
+}
+
+form {
+  margin-bottom: 20px;
+}
+form input {
+  border: 3px solid black;
+  color: #888888;
+  font-family: "Inter";
+  border-radius: 4px;
+  padding: 7px;
+  width: 20rem;
+  font-size: 1em;
+  flex: 1;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#normal {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.8em;
+  color: #ffffff;
+  padding: 0px 0px 0px 20px;
+}
+
+.flexbox-item2 img {
+  flex: content;
+  max-width: 30rem;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #282828;
+  align-content: center;
+  display: flex;
+  height: 25%;
+  padding: 30px 80px;
+  justify-content: space-around;
+}
+.list_part {
+  font-family: "Inter";
+  width: 80%;
+  display: flex;
+  background-color: #282828;
+  color: #ffffff;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: start;
+}
+ul {
+  list-style: none;
+  row-gap: 100px;
+}
+
+#part2 {
+  text-align-last: end;
+  width: 45%;
+}
+
+.list_name {
+  padding: 3px;
+}
