@@ -107,7 +107,7 @@ ul {
 }
 
 #part2 {
-  text-align-last: end;
+  text-align: right;
   width: 45%;
 }
 
